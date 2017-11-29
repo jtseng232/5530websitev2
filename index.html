@@ -2,7 +2,15 @@
 <html>
 <head>
 <style>
-@font-face { font-family: ChunkFive; src: url("ChunkFive.otf"); }
+@font-face {
+    font-family: Chunkfive;
+    src: url('chunkfive-webfont.woff2') format('woff2'),
+         url('chunkfive-webfont.woff') format('woff'),
+         url("ChunkFive.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 a:hover {
 	opacity:0.8;
@@ -11,6 +19,7 @@ h1, img {
 	margin: 0px;
 	padding: 0px;
 }
+
 body {
 	margin: 0;
 	padding: 0;
